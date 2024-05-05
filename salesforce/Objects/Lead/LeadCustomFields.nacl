@@ -81,4 +81,6 @@ type salesforce.Lead {
     caseSensitive = false
     queryable = true
   }
+  salesforce.Number Score {
+  }
 }
