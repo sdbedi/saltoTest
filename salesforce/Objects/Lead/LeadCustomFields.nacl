@@ -81,15 +81,28 @@ type salesforce.Lead {
     caseSensitive = false
     queryable = true
   }
-  salesforce.Number Score {
-    apiName = "Score"
+  salesforce.Number Score__c {
+    apiName = "Lead.Score__c"
+    description = "Score"
     externalId = false
+    inlineHelpText = "Score of Lead"
     label = "Score"
-    precision = 3
+    precision = 18
     scale = 0
     unique = false
     createable = true
     updateable = true
     queryable = true
   }
+  salesforce.Text saltoQuickStartField_c {
+    apiName = "Lead.saltoQuickStartField__c"
+    externalId = false
+    label = "saltoQuickStartField"
+    length = 32
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+}
 }
