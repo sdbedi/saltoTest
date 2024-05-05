@@ -82,5 +82,14 @@ type salesforce.Lead {
     queryable = true
   }
   salesforce.Number Score {
+    apiName = "Score"
+    externalId = false
+    label = "Score"
+    precision = 3
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
   }
 }
