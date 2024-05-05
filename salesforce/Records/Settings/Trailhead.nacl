@@ -1,0 +1,6 @@
+salesforce.TrailheadSettings {
+  fullName = "Trailhead"
+  enableConfettiEffect = "true"
+  enableTrailheadInLexTerms = "false"
+  _alias = "Trailhead"
+}
